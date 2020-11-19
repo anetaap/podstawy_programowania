@@ -27,3 +27,34 @@ int main() {
   
      return 0;
 }
+
+//Funkcja, która otrzymuje dane przez void* i zwiększa pierwszego inta w tak wskazanej pamięci, proszę to przetestować dla inta, struktury zaczynającej się od inta:
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct numbers{
+    int a;
+    int b;
+};
+
+int add(void* number){
+	 int i;
+	 i = *(int*)number += 1;
+	 printf("%d", i);
+	 
+	 return 0;
+}
+
+int main() {
+    struct numbers *wsk;
+    wsk = (struct numbers*) malloc(sizeof (struct numbers));
+    
+    (*wsk).a = 10;
+    (*wsk).b = 7;
+    
+    add(wsk);
+    
+    return 0;
+}
+  
