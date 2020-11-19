@@ -1,0 +1,29 @@
+// Funkcja sort(), która sortuje tablice 
+
+#include <stdio.h>
+
+void sortuj(int tablica[]){
+    int a, i, j;
+    for(i = 0; i < (sizeof tablica[i]); ++i){
+        
+        for(j = 0; j < (sizeof tablica[j]); ++j){
+            
+            if(tablica[j] > tablica[i]){
+                
+            a = tablica[i];
+            tablica[i]  = tablica[j];
+            tablica[j] = a;
+            }
+        }
+    }
+}
+
+int main() {
+    int tablica[] = {5, 9, 0, 6, 4};
+    int i;
+    sortuj(tablica);
+    for(i = 0; i < (sizeof tablica[i]); ++i)
+    printf("%d/n", tablica[i]);
+  
+     return 0;
+}
