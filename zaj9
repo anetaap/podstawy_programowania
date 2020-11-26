@@ -35,7 +35,7 @@ int main(){
         }
     char tekst[100];
     fscanf(fp, "%s", tekst);
-    printf("%s, tekst");
+    printf("%s", tekst);
     return 0;
 }
 
