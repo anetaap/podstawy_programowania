@@ -1,6 +1,6 @@
 
-- Proszę wpisać do pliku ulubiony cytat, nazywając plik nazwiskiem osoby, która go powiedziała:
-- Do powyższego pliku dopisać na koniec kolejny cytat tej samej osoby:
+// Proszę wpisać do pliku ulubiony cytat, nazywając plik nazwiskiem osoby, która go powiedziała:
+// Do powyższego pliku dopisać na koniec kolejny cytat tej samej osoby:
 int main()
 {
     FILE *fp;
@@ -23,7 +23,7 @@ int main()
     return 0;
 }
 
-- Program, który spróbuje odczytać pewien plik i wyświetlić na ekran, jednakże w razie gdy plik nie istnieje proszę wyświetlić informacje o błędzie na standardowe wyjście błędów.
+// Program, który spróbuje odczytać pewien plik i wyświetlić na ekran, jednakże w razie gdy plik nie istnieje proszę wyświetlić informacje o błędzie na standardowe wyjście błędów.
 int main(){
 
     FILE *fp;
