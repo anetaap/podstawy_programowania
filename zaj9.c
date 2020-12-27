@@ -39,7 +39,7 @@ int main(){
     return 0;
 }
 
-- Program, który odczyta z pliku imię i wiek, format danych w pliku: "Jestem Imie, mam 20 lat", po odczytaniu powinno się wyświetlić "Imie", oraz 20
+//Program, który odczyta z pliku imię i wiek, format danych w pliku: "Jestem Imie, mam 20 lat", po odczytaniu powinno się wyświetlić "Imie", oraz 20
 
 int main(){
 
